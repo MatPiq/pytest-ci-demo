@@ -34,3 +34,6 @@ jobs:
     - name: Formatting with black
       run: |
         black formatting.py
+    - name: linting with flake8
+      run: |
+        flake8 linting.py
